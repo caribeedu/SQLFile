@@ -1,0 +1,10 @@
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\bin\Debug\SQLPhotos.exe.config
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.csprojResolveAssemblyReference.cache
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLFotos.FormConnect.resources
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.Properties.Resources.resources
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.csproj.GenerateResource.Cache
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\bin\Debug\SQLPhotos.exe
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\bin\Debug\SQLPhotos.pdb
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.exe
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.pdb
+C:\Users\Edu\Desktop\SQLPhotos\SQLPhotos\obj\Debug\SQLPhotos.FormView.resources
