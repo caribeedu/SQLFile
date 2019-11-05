@@ -1,6 +1,6 @@
 ﻿namespace SQLFotos
 {
-  partial class FormConnect
+  partial class MainForm
   {
     /// <summary>
     /// Variável de designer necessária.
@@ -37,17 +37,19 @@
       this.label3 = new System.Windows.Forms.Label();
       this.textBox4 = new System.Windows.Forms.TextBox();
       this.label4 = new System.Windows.Forms.Label();
-      this.textBox5 = new System.Windows.Forms.TextBox();
       this.label5 = new System.Windows.Forms.Label();
+      this.textBoxQuery = new System.Windows.Forms.TextBox();
+      this.label6 = new System.Windows.Forms.Label();
+      this.comboBox = new System.Windows.Forms.ComboBox();
       this.SuspendLayout();
       // 
       // BtnView
       // 
-      this.BtnView.Location = new System.Drawing.Point(15, 284);
+      this.BtnView.Location = new System.Drawing.Point(15, 326);
       this.BtnView.Name = "BtnView";
-      this.BtnView.Size = new System.Drawing.Size(157, 23);
+      this.BtnView.Size = new System.Drawing.Size(185, 23);
       this.BtnView.TabIndex = 0;
-      this.BtnView.Text = "Open";
+      this.BtnView.Text = "Download File";
       this.BtnView.UseVisualStyleBackColor = true;
       this.BtnView.Click += new System.EventHandler(this.BtnView_Click);
       // 
@@ -64,14 +66,14 @@
       // 
       this.textBox1.Location = new System.Drawing.Point(15, 30);
       this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new System.Drawing.Size(157, 20);
+      this.textBox1.Size = new System.Drawing.Size(185, 20);
       this.textBox1.TabIndex = 2;
       // 
       // textBox2
       // 
       this.textBox2.Location = new System.Drawing.Point(15, 83);
       this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new System.Drawing.Size(157, 20);
+      this.textBox2.Size = new System.Drawing.Size(185, 20);
       this.textBox2.TabIndex = 4;
       // 
       // label2
@@ -87,7 +89,7 @@
       // 
       this.textBox3.Location = new System.Drawing.Point(15, 136);
       this.textBox3.Name = "textBox3";
-      this.textBox3.Size = new System.Drawing.Size(157, 20);
+      this.textBox3.Size = new System.Drawing.Size(185, 20);
       this.textBox3.TabIndex = 6;
       // 
       // label3
@@ -103,7 +105,8 @@
       // 
       this.textBox4.Location = new System.Drawing.Point(15, 189);
       this.textBox4.Name = "textBox4";
-      this.textBox4.Size = new System.Drawing.Size(157, 20);
+      this.textBox4.PasswordChar = '•';
+      this.textBox4.Size = new System.Drawing.Size(185, 20);
       this.textBox4.TabIndex = 8;
       // 
       // label4
@@ -115,28 +118,61 @@
       this.label4.TabIndex = 7;
       this.label4.Text = "Password:";
       // 
-      // textBox5
-      // 
-      this.textBox5.Location = new System.Drawing.Point(15, 245);
-      this.textBox5.Name = "textBox5";
-      this.textBox5.Size = new System.Drawing.Size(157, 20);
-      this.textBox5.TabIndex = 10;
-      // 
       // label5
       // 
       this.label5.AutoSize = true;
-      this.label5.Location = new System.Drawing.Point(12, 224);
+      this.label5.Location = new System.Drawing.Point(12, 274);
       this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(38, 13);
+      this.label5.Size = new System.Drawing.Size(53, 13);
       this.label5.TabIndex = 9;
-      this.label5.Text = "Query:";
+      this.label5.Text = "File Type:";
       // 
-      // FormConnect
+      // textBoxQuery
+      // 
+      this.textBoxQuery.Location = new System.Drawing.Point(15, 242);
+      this.textBoxQuery.Name = "textBoxQuery";
+      this.textBoxQuery.Size = new System.Drawing.Size(185, 20);
+      this.textBoxQuery.TabIndex = 12;
+      // 
+      // label6
+      // 
+      this.label6.AutoSize = true;
+      this.label6.Location = new System.Drawing.Point(12, 221);
+      this.label6.Name = "label6";
+      this.label6.Size = new System.Drawing.Size(38, 13);
+      this.label6.TabIndex = 11;
+      this.label6.Text = "Query:";
+      // 
+      // comboBox
+      // 
+      this.comboBox.FormattingEnabled = true;
+      this.comboBox.Items.AddRange(new object[] {
+            "Excel 2003 (.xls)",
+            "Excel 2010 (.xlsx)",
+            "Word 2003 (.doc)",
+            "Word 2010 (.docx)",
+            "PDF (.pdf)",
+            "PNG (.png)",
+            "JPG (.jpg)",
+            "JPEG (.jpeg)",
+            "SVG (.svg)",
+            "MP4 (.mp4)",
+            "MP3 (.mp3)",
+            "AVI (.avi)",
+            "WAV (.wav)"});
+      this.comboBox.Location = new System.Drawing.Point(15, 294);
+      this.comboBox.Name = "comboBox";
+      this.comboBox.Size = new System.Drawing.Size(185, 21);
+      this.comboBox.TabIndex = 13;
+      // 
+      // MainForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(192, 319);
-      this.Controls.Add(this.textBox5);
+      this.ClientSize = new System.Drawing.Size(216, 362);
+      this.Controls.Add(this.comboBox);
+      this.Controls.Add(this.textBoxQuery);
+      this.Controls.Add(this.label6);
       this.Controls.Add(this.label5);
       this.Controls.Add(this.textBox4);
       this.Controls.Add(this.label4);
@@ -149,9 +185,9 @@
       this.Controls.Add(this.BtnView);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = "FormConnect";
+      this.Name = "MainForm";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "SQL Photos";
+      this.Text = "SQL File Downloader";
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -168,8 +204,10 @@
     private System.Windows.Forms.Label label3;
     private System.Windows.Forms.TextBox textBox4;
     private System.Windows.Forms.Label label4;
-    private System.Windows.Forms.TextBox textBox5;
     private System.Windows.Forms.Label label5;
+    private System.Windows.Forms.TextBox textBoxQuery;
+    private System.Windows.Forms.Label label6;
+    private System.Windows.Forms.ComboBox comboBox;
   }
 }
 

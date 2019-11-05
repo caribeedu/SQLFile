@@ -11,7 +11,7 @@ namespace SQLPhotos
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new FormConnect());
+      Application.Run(new MainForm());
     }
   }
 }
