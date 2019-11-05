@@ -1,2 +1,2 @@
-# SQLPhotos
-Simple photo viewer saved in SQL Server database
+# SQL File Downloader
+Simple file downloader to SQL Server database binary fields
