@@ -47,7 +47,7 @@
       // 
       this.BtnView.Location = new System.Drawing.Point(15, 326);
       this.BtnView.Name = "BtnView";
-      this.BtnView.Size = new System.Drawing.Size(185, 23);
+      this.BtnView.Size = new System.Drawing.Size(230, 23);
       this.BtnView.TabIndex = 0;
       this.BtnView.Text = "Download File";
       this.BtnView.UseVisualStyleBackColor = true;
@@ -66,14 +66,14 @@
       // 
       this.textBox1.Location = new System.Drawing.Point(15, 30);
       this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new System.Drawing.Size(185, 20);
+      this.textBox1.Size = new System.Drawing.Size(230, 20);
       this.textBox1.TabIndex = 2;
       // 
       // textBox2
       // 
       this.textBox2.Location = new System.Drawing.Point(15, 83);
       this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new System.Drawing.Size(185, 20);
+      this.textBox2.Size = new System.Drawing.Size(230, 20);
       this.textBox2.TabIndex = 4;
       // 
       // label2
@@ -89,7 +89,7 @@
       // 
       this.textBox3.Location = new System.Drawing.Point(15, 136);
       this.textBox3.Name = "textBox3";
-      this.textBox3.Size = new System.Drawing.Size(185, 20);
+      this.textBox3.Size = new System.Drawing.Size(230, 20);
       this.textBox3.TabIndex = 6;
       // 
       // label3
@@ -106,7 +106,7 @@
       this.textBox4.Location = new System.Drawing.Point(15, 189);
       this.textBox4.Name = "textBox4";
       this.textBox4.PasswordChar = '•';
-      this.textBox4.Size = new System.Drawing.Size(185, 20);
+      this.textBox4.Size = new System.Drawing.Size(230, 20);
       this.textBox4.TabIndex = 8;
       // 
       // label4
@@ -131,7 +131,7 @@
       // 
       this.textBoxQuery.Location = new System.Drawing.Point(15, 242);
       this.textBoxQuery.Name = "textBoxQuery";
-      this.textBoxQuery.Size = new System.Drawing.Size(185, 20);
+      this.textBoxQuery.Size = new System.Drawing.Size(230, 20);
       this.textBoxQuery.TabIndex = 12;
       // 
       // label6
@@ -162,14 +162,14 @@
             "WAV (.wav)"});
       this.comboBox.Location = new System.Drawing.Point(15, 294);
       this.comboBox.Name = "comboBox";
-      this.comboBox.Size = new System.Drawing.Size(185, 21);
+      this.comboBox.Size = new System.Drawing.Size(230, 21);
       this.comboBox.TabIndex = 13;
       // 
       // MainForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(216, 362);
+      this.ClientSize = new System.Drawing.Size(259, 361);
       this.Controls.Add(this.comboBox);
       this.Controls.Add(this.textBoxQuery);
       this.Controls.Add(this.label6);
@@ -184,10 +184,11 @@
       this.Controls.Add(this.label1);
       this.Controls.Add(this.BtnView);
       this.MaximizeBox = false;
-      this.MinimizeBox = false;
+      this.MaximumSize = new System.Drawing.Size(275, 400);
+      this.MinimumSize = new System.Drawing.Size(275, 400);
       this.Name = "MainForm";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-      this.Text = "SQL File Downloader";
+      this.Text = "SQL File";
       this.ResumeLayout(false);
       this.PerformLayout();
 
