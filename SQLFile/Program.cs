@@ -1,8 +1,8 @@
-﻿using SQLFotos;
+﻿using SQLFile;
 using System;
 using System.Windows.Forms;
 
-namespace SQLPhotos
+namespace SQLFile
 {
   static class Program
   {

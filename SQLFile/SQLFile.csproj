@@ -7,8 +7,8 @@
     <ProjectGuid>{23267BF7-A7E5-4713-9B2C-2A016854F6FC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SQLPhotos</RootNamespace>
-    <AssemblyName>SQLPhotos</AssemblyName>
+    <RootNamespace>SQLFile</RootNamespace>
+    <AssemblyName>SQLFile</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

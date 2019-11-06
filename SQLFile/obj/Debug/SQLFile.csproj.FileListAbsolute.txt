@@ -1,0 +1,8 @@
+C:\Users\Edu\Desktop\SQLFile\SQLFile\obj\Debug\SQLFile.csproj.GenerateResource.Cache
+C:\Users\Edu\Desktop\SQLFile\SQLFile\obj\Debug\SQLFile.MainForm.resources
+C:\Users\Edu\Desktop\SQLFile\SQLFile\bin\Debug\SQLFile.exe.config
+C:\Users\Edu\Desktop\SQLFile\SQLFile\bin\Debug\SQLFile.exe
+C:\Users\Edu\Desktop\SQLFile\SQLFile\bin\Debug\SQLFile.pdb
+C:\Users\Edu\Desktop\SQLFile\SQLFile\obj\Debug\SQLFile.Properties.Resources.resources
+C:\Users\Edu\Desktop\SQLFile\SQLFile\obj\Debug\SQLFile.exe
+C:\Users\Edu\Desktop\SQLFile\SQLFile\obj\Debug\SQLFile.pdb

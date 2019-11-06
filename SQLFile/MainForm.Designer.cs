@@ -1,4 +1,4 @@
-﻿namespace SQLFotos
+﻿namespace SQLFile
 {
   partial class MainForm
   {

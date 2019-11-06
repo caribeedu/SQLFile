@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Windows.Forms;
 
-namespace SQLFotos
+namespace SQLFile
 {
   public partial class MainForm : Form
   {
